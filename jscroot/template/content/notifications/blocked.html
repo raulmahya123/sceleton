@@ -1,109 +1,87 @@
-<div class="container has-text-centered">
-    <h2 class="title" id="biggreet">Tour Dates</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script type="module" src="path/to/your/script.js"></script>
+    <title>Tour Dates</title>
+</head>
+<body>
+    <div class="container has-text-centered">
+        <h2 class="title" id="biggreet">Tour Dates</h2>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
+        <div class="tile is-ancestor" id="tourDatesContainer">
+            <!-- Tour date content will be dynamically added here -->
         </div>
     </div>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-        <div class="tile is-parent">
-            <article class="tile is-child box">
-                <figure class="image">
-                    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260">
-                </figure>
-                <p class="title">New York</p>
-                <p class="subtitle">Fri 27 Nov 2016</p>
-                <a class="button">Buy Tickets</a>
-            </article>
-        </div>
-    </div>
-</div>
+    <script type="module">
+        // Your script.js content
+        // Update the URL with your actual data source
+        const apiUrl = 'https://raulmahya123.github.io/theme/chapter1/openlayers/data/tourDates.json';
+
+        // Fetch data from the API
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Call a function to update the page with the fetched data
+                updatePageContent(data);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+
+        function updatePageContent(data) {
+            const container = document.getElementById('tourDatesContainer');
+            const biggreet = document.getElementById('biggreet');
+
+            // Set the content of the biggreet element
+            biggreet.textContent = 'Tour Dates';
+
+            // Clear existing content in container
+            container.innerHTML = '';
+
+            // Loop through the data and create elements for each tour date
+            data.forEach(tourDate => {
+                const tileParent = document.createElement('div');
+                tileParent.classList.add('tile', 'is-parent');
+
+                const tileChild = document.createElement('article');
+                tileChild.classList.add('tile', 'is-child', 'box');
+
+                // Create elements for image, title, subtitle, and button using tourDate properties
+                const image = document.createElement('figure');
+                image.classList.add('image');
+                const img = document.createElement('img');
+                img.src = tourDate.image;
+                image.appendChild(img);
+
+                const title = document.createElement('p');
+                title.classList.add('title');
+                title.textContent = tourDate.title;
+
+                const subtitle = document.createElement('p');
+                subtitle.classList.add('subtitle');
+                subtitle.textContent = tourDate.subtitle;
+
+                const button = document.createElement('a');
+                button.classList.add('button');
+                button.textContent = 'Buy Tickets';
+
+                // Append the created elements to the tileChild
+                tileChild.appendChild(image);
+                tileChild.appendChild(title);
+                tileChild.appendChild(subtitle);
+                tileChild.appendChild(button);
+
+                // Append tileChild to tileParent
+                tileParent.appendChild(tileChild);
+
+                // Append tileParent to the container
+                container.appendChild(tileParent);
+            });
+        }
+    </script>
+</body>
+</html>
