@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BDO - Husein Sastranegara International Airport"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57742944206092,
+          -6.900507809649596
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMAN 9 Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5860554719867,
+          -6.901241665737857
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMP Angkasa"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57955312480811,
+          -6.895762611403811
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vio Hotel Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5821522589892,
+          -6.89219786498272
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Kristen Maranatha"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58057800420318,
+          -6.886378546249347
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung International School"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5807933623093,
+          -6.8845116304414375
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung Independent School"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58130668699124,
+          -6.884828640686678
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Sukawarna"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57855056420709,
+          -6.882120693348128
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pemakaman Cibogo"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57800135067606,
+          -6.8821201546834345
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMPN 26 Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57723338420124,
+          -6.882661883163422
+        ],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDPN Setiabudi"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57909083416337,
+          -6.87990569461445
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMAN 15"
+      },
+      "geometry": {
+        "coordinates": [
+          107.573981308859,
+          -6.878040230663402
+        ],
+        "type": "Point"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poltekpos"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57595535589024,
+          -6.873330721684894
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Politeknik Negeri Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57285525670085,
+          -6.871568711008862
+        ],
+        "type": "Point"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Jeungjing Rigil Tengah"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5691783664202,
+          -6.869938451923332
+        ],
+        "type": "Point"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumah Bersalin Muhammadiyah"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57668015611034,
+          -6.877528353557196
+        ],
+        "type": "Point"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN 5 Sarijadi"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58032031133888,
+          -6.878124785406527
+        ],
+        "type": "Point"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Murabbi Park"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58345691074607,
+          -6.879831357846669
+        ],
+        "type": "Point"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Setrasari Mall"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58299139886725,
+          -6.880718562519576
+        ],
+        "type": "Point"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Griya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58345112772116,
+          -6.881445449500475
+        ],
+        "type": "Point"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ASOKA Inn"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5808459993637,
+          -6.880710110110044
+        ],
+        "type": "Point"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Pasundan Kampus IV"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59266683119813,
+          -6.866319542685346
+        ],
+        "type": "Point"
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Pendidikan Indonesia"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59182638081558,
+          -6.861058627511596
+        ],
+        "type": "Point"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMPN 29 Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58642787253524,
+          -6.860710082815558
+        ],
+        "type": "Point"
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN 138 Gegerkalong Girang Kota Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58653738154254,
+          -6.860947102885575
+        ],
+        "type": "Point"
+      },
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kumon Pondok Hijau"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58266998947846,
+          -6.861066281458051
+        ],
+        "type": "Point"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Lab 5758"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58258895282432,
+          -6.861288079938291
+        ],
+        "type": "Point"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puskesmas Sukasari"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58232125849526,
+          -6.868210508695697
+        ],
+        "type": "Point"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Gegerkalong 2 KPAD"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58215617220168,
+          -6.866624647248756
+        ],
+        "type": "Point"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN KPAD Gegerkalong"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58189738918367,
+          -6.866577468316379
+        ],
+        "type": "Point"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum NuArt Sculture Park"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5726350418957,
+          -6.877158301514569
+        ],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cibarunai"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57285901970909,
+          -6.879308474585301
+        ],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SD Sarijadi III"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5749625995906,
+          -6.880703423133809
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Global Medika"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5748207633032,
+          -6.881846498475184
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapangan RW 11"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57576905757611,
+          -6.882165319096302
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "SD Sarijadi Selatan 1 dan 2"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57323361827747,
+          -6.883643857314851
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Sarijadi"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57498285542789,
+          -6.883951409401092
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumah Sakit Gigi dan Mulut Maranatha"
+      },
+      "geometry": {
+        "coordinates": [
+          107.581228438555,
+          -6.886832914400287
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung Trade Center"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58492086093122,
+          -6.893345432385601
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pertamina Gas Station"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5860536774565,
+          -6.893580710093261
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shell Gas Station"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5872427079218,
+          -6.894537784613746
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ampera"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58803902116017,
+          -6.895130496424628
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cicle K"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58799360215937,
+          -6.895004861695355
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Raya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58767129452781,
+          -6.8949472188418355
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Nyland"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5873058410557,
+          -6.894934071059097
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RS Hermina Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58872660216633,
+          -6.896003520513958
+        ],
+        "type": "Point"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saung Kabayan"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58936884751967,
+          -6.895854119947472
+        ],
+        "type": "Point"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aston Primera Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59065858647705,
+          -6.8962545381504015
+        ],
+        "type": "Point"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holiday Inn Bandung Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59074617398585,
+          -6.8958573704898924
+        ],
+        "type": "Point"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DayTrans Dr. Djunjunan"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59173325527865,
+          -6.897208462592602
+        ],
+        "type": "Point"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum Barli"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58753425759812,
+          -6.878386053056943
+        ],
+        "type": "Point"
+      },
+      "id": 50
+    }
+  ]
+}

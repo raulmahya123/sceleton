@@ -24,6 +24,8 @@ export function getContentURL(){
             return url.template.content+"notifications/publish.html";
         case "notifications/program":
             return url.template.content+"notifications/program.html";
+        case "notifications/tugas5":
+            return url.template.content+"notifications/tugas5.html";
         case "explore":
             return url.template.content+"explore.html";
         case "saved":

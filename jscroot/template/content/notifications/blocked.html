@@ -3,85 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <script type="module" src="path/to/your/script.js"></script>
-    <title>Tour Dates</title>
+    <title>OpenLayers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" />
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="../../../../chapter1/openlayers/styles.css" />
+    
+    <style>
+        .dzikriol {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid rgb(212, 26, 26);
+            border: transparent;
+            width: 200px;
+            background-color: rgb(126, 185, 236);
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+            margin-left: 740px;
+        }
+
+        .dzikriol:hover {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid rgb(25, 12, 204);
+            border: transparent;
+            width: 200px;
+            background-color: rgb(255, 138, 20);
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 0 rgba(255, 3, 3, 0.5);
+            margin-left: 740px;
+        }
+
+        .dzikriol a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        button {
+            margin-left: 780px;
+        }
+
+        #hasil {
+            margin-left: 750px;
+        }
+        th {
+        background-color: white;
+        color: black; /* You can change the text color if needed */
+    }
+    </style>
 </head>
 <body>
-    <div class="container has-text-centered">
-        <h2 class="title" id="biggreet">Tour Dates</h2>
 
-        <div class="tile is-ancestor" id="tourDatesContainer">
-            <!-- Tour date content will be dynamically added here -->
-        </div>
+    <div class="dzikriol">
+        <a href="../index.html">HOME</a>
     </div>
+    <div>
+        <h1>DATA GEO OPENLAYERS</h1>
+        <h2>1214053 - Raul Mahya</h2>
+        <button id="ambilData">Ambil Data dari API</button>
+        <div id="hasil"></div>
+        <div id="map" style="height: 500px;"></div>
 
-    <script type="module">
-        // Your script.js content
-        // Update the URL with your actual data source
-        const apiUrl = 'https://raulmahya123.github.io/theme/chapter1/openlayers/data/tourDates.json';
+        <!-- Add a table to display GeoJSON data -->
+        <table id="myTableId" border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama Tempat</th>
+                <th>Jalan</th>
+                <th>Koordinat Tempat</th>
+                <th>Tipe Data Json</th>
+            </tr>
+            <tbody id="geojson-table">
+                <!-- Rows for GeoJSON data will be added here -->
+            </tbody>
+        </table>
+        <!-- Include OpenLayers via CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
 
-        // Fetch data from the API
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                // Call a function to update the page with the fetched data
-                updatePageContent(data);
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-            });
-
-        function updatePageContent(data) {
-            const container = document.getElementById('tourDatesContainer');
-            const biggreet = document.getElementById('biggreet');
-
-            // Set the content of the biggreet element
-            biggreet.textContent = 'Tour Dates';
-
-            // Clear existing content in container
-            container.innerHTML = '';
-
-            // Loop through the data and create elements for each tour date
-            data.forEach(tourDate => {
-                const tileParent = document.createElement('div');
-                tileParent.classList.add('tile', 'is-parent');
-
-                const tileChild = document.createElement('article');
-                tileChild.classList.add('tile', 'is-child', 'box');
-
-                // Create elements for image, title, subtitle, and button using tourDate properties
-                const image = document.createElement('figure');
-                image.classList.add('image');
-                const img = document.createElement('img');
-                img.src = tourDate.image;
-                image.appendChild(img);
-
-                const title = document.createElement('p');
-                title.classList.add('title');
-                title.textContent = tourDate.title;
-
-                const subtitle = document.createElement('p');
-                subtitle.classList.add('subtitle');
-                subtitle.textContent = tourDate.subtitle;
-
-                const button = document.createElement('a');
-                button.classList.add('button');
-                button.textContent = 'Buy Tickets';
-
-                // Append the created elements to the tileChild
-                tileChild.appendChild(image);
-                tileChild.appendChild(title);
-                tileChild.appendChild(subtitle);
-                tileChild.appendChild(button);
-
-                // Append tileChild to tileParent
-                tileParent.appendChild(tileChild);
-
-                // Append tileParent to the container
-                container.appendChild(tileParent);
-            });
-        }
-    </script>
+        <!-- Your JavaScript code here -->
+        <script type="module" src="../../../../chapter1/openlayers/script.js"></script>
+        <script type="module" src="../../../../chapter1/openlayers/script2.js"></script>
+    </div>
 </body>
 </html>

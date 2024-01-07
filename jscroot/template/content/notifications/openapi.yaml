@@ -1,0 +1,87 @@
+openapi: 3.0.3
+info:
+  title: DOKUMEN API GIS RAUL MAHYA - OpenAPI 3.0
+  description: >-
+    Jelaskan disini apa saja yang perlu dijelaskan
+    termasuk informasi yang diperlukan untuk dinilai
+    term of service isi dari link repo dari swagger ini
+  termsOfService: https://raulmahya123.github.io/sweggergis/
+  contact:
+    email: raulmahya11@gmail.com
+  license:
+    name: Fancy Backend
+    url: https://pkg.go.dev/github.com/Fancypedia/fancybackenddd
+  version: 1.0.11
+externalDocs:
+  description: Repo GCF
+  url: https://pkg.go.dev/github.com/Fancypedia/fancybackenddd
+servers:
+  - url: https://asia-southeast2-testlogin-366704.cloudfunctions.net
+tags:
+  - name: Create GIS
+    description: Data Geo Spasial
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://pkg.go.dev/github.com/Fancypedia/fancybackenddd
+  - name: auth
+    description: Auth to Access to API
+    externalDocs:
+      description: Deskripsi dan Kode Program
+      url: https://pkg.go.dev/github.com/Fancypedia/fancybackenddd
+  - name: user
+    description: Get Token and Authorize
+paths:
+  /createpostgisline-3:  # Penambahan endpoint Create GIS
+    post:
+      tags:
+        - Create GIS
+      summary: Create GIS Data
+      description: Add new GIS data
+      operationId: createGIS
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Peta' # Gunakan skema yang sesuai di sini
+      responses:
+        '201':
+          description: Data successfully created
+        '400':
+          description: Invalid input or request body
+      security:
+        - SECRET:
+            - write:apiKey
+            - read:SECRET
+               
+components:
+  schemas:
+    Peta:
+      type: object
+      properties:
+        type:
+          type: string
+          example: "Feature"
+        properties:
+          type: object
+          properties:
+            name:
+              type: string
+              example: "LOKASI"
+        geometry:
+          type: object
+          properties:
+            type:
+              type: string
+              example: "Point"
+            coordinates:
+              type: array
+              items:
+                - type: array
+                  items:
+                    - [125.6, 10.1]
+  securitySchemes:
+    SECRET:
+      type: apiKey
+      name: SECRET
+      in: header

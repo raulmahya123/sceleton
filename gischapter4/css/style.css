@@ -1,0 +1,246 @@
+@import "https://cdn.skypack.dev/ol/ol.css";
+
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s; /* Tambahkan efek transisi saat mengubah transformasi */
+}
+
+/* Tambahkan tombol untuk menggeser peta ke posisi tengah */
+#center-map-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Efek hover pada tombol peta */
+#center-map-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Tambahkan efek transparansi saat hover pada peta */
+#map:hover {
+  opacity: 0.95;
+}
+
+/* Tambahkan CSS untuk animasi tombol peta */
+#center-map-button.rotate {
+  transform: rotate(360deg);
+  transition: transform 0.3s;
+}
+
+/* Hapus outline dari tombol saat fokus */
+#center-map-button:focus {
+  outline: none;
+}
+
+
+/* Overlay untuk elemen pengendali dan informasi */
+#map-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Tombol zoom in dan out */
+#map-zoom-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Ubah ukuran tombol zoom */
+#map-zoom-controls button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Tambahkan hover effect untuk tombol zoom */
+#map-zoom-controls button:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* Stylize tombol zoom */
+#map-zoom-controls button.zoom-in {
+  transform: rotate(180deg); /* Flip the "+" button */
+}
+
+/* Stylize tombol zoom */
+#map-zoom-controls button.zoom-out {
+  transform: rotate(0deg);
+}
+
+/* Stylize tombol zoom */
+#map-zoom-controls button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+
+/* Styling the map popup */
+.ol-popup {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  border: 1px solid #aaa;
+  bottom: 20px;
+  left: 10px;
+  min-width: 300px;
+  z-index: 1000;
+}
+
+.ol-popup:after, .ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.ol-popup:after {
+  border-top-color: #fff;
+  border-width: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ol-popup:before {
+  border-top-color: #aaa;
+  border-width: 11px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  color: #777;
+  font-size: 1.2em;
+}
+
+/* Styling the info table */
+#info-table {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px auto; /* Centering the table */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#info-table h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+#info-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#info-table th, #info-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#info-table th {
+  background-color: #f2f2f2;
+}
+
+#info-table td {
+  font-size: 16px;
+}
+
+#info-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#info-table tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Adjust column widths and enable text wrapping */
+th.name, td.name {
+  width: 150px;
+  white-space: normal;
+}
+
+th.coordinate, td.coordinate {
+  width: 100px;
+  white-space: normal;
+}
+
+th.type, td.type {
+  width: 150px;
+  white-space: normal;
+}
+/* Mengatur style untuk elemen <h1> dan <h2> */
+h1, h2 {
+  text-align: center; /* Pusatkan teks horizontal */
+  color: #333; /* Warna teks */
+  margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+/* Mengatur style khusus untuk elemen <h1> */
+h1 {
+  font-size: 24px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan teks */
+}
+
+/* Mengatur style khusus untuk elemen <h2> dengan class "chapter" */
+h2.chapter {
+  font-size: 18px; /* Ukuran font */
+  font-style: italic; /* Gaya teks miring */
+  color: #666; /* Warna teks yang lebih ringan */
+}

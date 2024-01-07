@@ -1,0 +1,881 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Antapani",
+          "desa": "Antapani Tengah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.66047343964226,
+            -6.916805395384614
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Antapani",
+          "desa": "Antapani Tengah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.66789110562553,
+            -6.9160445716763945
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Antapani",
+          "desa": "Antapani Tengah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.66490761635595,
+            -6.919712817547321
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Antapani",
+          "desa": "Antapani Tengah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.65319263096478,
+            -6.91794662864838
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Antapani",
+          "desa": "Antapani Tengah"
+        },
+        "geometry": {
+          "coordinates": [
+            107.65108502845254,
+            -6.9231636598671145
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "coordinates": [
+            107.6617872697783,
+            -6.92264739372294
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "coordinates": [
+            107.6621704702369,
+            -6.923788612863561
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66063766840921,
+            -6.913408851499128
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66325697460621,
+            -6.930417945481139
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66110411041842,
+            -6.920735706180281
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65891838645484,
+            -6.9207549932762475
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65854924196361,
+            -6.921362536395321
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65799552522594,
+            -6.919472399679975
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66037553576393,
+            -6.9190480822339
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6608903951851,
+            -6.9172254415966705
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66123039669094,
+            -6.916916845660452
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65972467573914,
+            -6.917283303312303
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65866581390816,
+            -6.9163768022860665
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65704352101017,
+            -6.917476175647181
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66327696502145,
+            -6.9184391414828355
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6660340068226,
+            -6.919979295890414
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6674471800967,
+            -6.915513654545975
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.664876092822,
+            -6.912921711998635
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65669143125558,
+            -6.924807506855785
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65681328098725,
+            -6.926397275563531
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65763141489992,
+            -6.927278558081355
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65410050673222,
+            -6.924186301221425
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65129089310955,
+            -6.918707083007149
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65598931157069,
+            -6.917501072105225
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65603883128222,
+            -6.920284133402276
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65580800597263,
+            -6.919446121457341
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65508915001283,
+            -6.918575373095635
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65525402523338,
+            -6.91763260614114
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65223412266113,
+            -6.9224778003972745
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65191473856316,
+            -6.920377300842219
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65229400717953,
+            -6.917652582305237
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65751779019604,
+            -6.91266257700363
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65654963966489,
+            -6.912938641243471
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65580807755424,
+            -6.914758616271257
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65632305124262,
+            -6.915218721207069
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65483992702298,
+            -6.91533119123433
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65502911542046,
+            -6.9126497053767935
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65586337279223,
+            -6.911105787538489
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65817439314026,
+            -6.910457822258081
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66348149399533,
+            -6.9132312567229235
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6633112662314,
+            -6.9136089992255165
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66137868044927,
+            -6.914106028374874
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.660177072708,
+            -6.914573235297894
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6599567779557,
+            -6.913579177459951
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6586249960435,
+            -6.913181553739577
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66360282672434,
+            -6.9286122595106581
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66750828055734,
+            -6.922815234254756
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65835727821485,
+            -6.918031139497344
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65781274206932,
+            -6.918430692281319
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6634943196338,
+            -6.913434448233772
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65884822513294,
+            -6.910466195340334
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.6608910624276,
+            -6.923779761240837
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66019525587353,
+            -6.92365224141237
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65313173398164,
+            -6.9153877475092855
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.65921285547716,
+            -6.908369670195526
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66466247228169,
+            -6.9062142094498284
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66789773291902,
+            -6.90789861007697
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+       "properties": {
+      "name":"Antapani",
+      "desa": "Antapani Tengah"
+    },
+        "geometry": {
+          "coordinates": [
+            107.66958006844982,
+            -6.909083396754994
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
